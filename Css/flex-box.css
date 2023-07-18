@@ -1,0 +1,19 @@
+.container{
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 600px;
+    align-items: center; 
+    align-content: flex-end;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.box{
+    border: 3px solid red;
+    min-width: 250px;
+    min-height: 250px;
+    text-align: center;
+}
