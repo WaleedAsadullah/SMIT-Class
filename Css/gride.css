@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.col-3{
+    flex-basis: 22%;
+    background-color: aqua;
+    height: 100px;
+}
+
+.col-6{
+    flex-basis: 48%;
+    background-color: rgb(63, 29, 185);
+    height: 100px;
+}
