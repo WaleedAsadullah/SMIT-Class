@@ -1,0 +1,107 @@
+header{
+    background-color: #0b0b0d;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px 5px 0px;
+}
+nav{
+    background: linear-gradient(90deg, rgba(254,162,54,1) 34%, rgba(249,162,62,1) 100%);
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
+body{
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-heading{
+    padding: 0px;
+    margin: 0px;
+    color: #fea236
+}
+.nav-list{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 5px 0px 5px 0px;
+}
+.section-1{
+    background-image: url('assets/section-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 700px;
+    width: 100%;
+}
+.zero-padding{
+    padding: 0px;
+    margin: 0px;
+}
+.text-white{
+    color:azure
+}
+.section-content-30{
+    width: 30%;
+}
+.section-1-overlay{
+    background-color: #fea236;
+    padding: 190px 0px 0px 70px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(11,11,13,0.6) 51%, rgba(254,162,54,0.2) 100%);
+}
+.order-now{
+    background: linear-gradient(90deg, rgba(254,162,54,1) 34%, rgba(249,162,62,1) 100%);
+    color: azure;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: -1px 1px 24px -2px rgba(0,0,0,0.75);
+}
+.nav-li{
+    display:inline;
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+}
+.logo{
+    height: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+#scroll-container {
+    overflow: hidden;
+  }
+  
+#scroll-text {
+/* animation properties */
+transform: translateX(100%);
+animation: my-animation 20s linear infinite;
+}
+
+@keyframes my-animation {
+from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+} 
+
+.section-2{
+    background-color: #0b0b0d;
+    padding-top: 30px;
+}
+.menu-heading{
+    padding-bottom: 20px;
+}
