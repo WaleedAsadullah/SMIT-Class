@@ -112,18 +112,18 @@
 // // }
 
 // Step 1: Generate a random number between 0 and 5
-const randomNumber = Math.floor(Math.random() * 6);
+// const randomNumber = Math.floor(Math.random() * 6);
 
-// Step 2: Get user input
-const userInput = prompt("Enter a question: ");
+// // Step 2: Get user input
+// // const userInput = prompt("Enter a question: ");
 
-// Step 3: Create responses using a switch statement
-let response;
-switch (randomNumber,userInput) {
-  case randomNumber == userInput:
-    response = "Good";
-    break;
-//   case 1:
+// // Step 3: Create responses using a switch statement
+// let response;
+// switch (randomNumber,userInput) {
+//   case randomNumber == userInput:
+//     response = "Good";
+//     break;
+// //   case 1:
 //     response = "I'm not sure how to answer that.";
 //     break;
 //   case 2:
@@ -138,17 +138,35 @@ switch (randomNumber,userInput) {
 //   case 5:
 //     response = "I'd recommend discussing this with an expert.";
 //     break;
-  default:
-    response = "Better Luck ";
+//   default:
+//     response = "Better Luck ";
+// }
+
+// // Step 4: Create the end response
+// const endResponse = `You asked: "${userInput}"\nI respond: ${response}`;
+
+// // Step 5: Output the user's question and the response
+// // console.log(endResponse);
+
+// let studnt = [
+//   ['name1' , 34],
+//   ['name2' , 45],
+// ]
+// let array1 = [1,2,3]
+// let mainArray = [ array1 , array1 ,array1]
+// console.log(mainArray[1][1])
+
+// let object = {
+//   name : "waleed",
+//   age : 23
+// }
+// console.log(object.age)
+let object = {
+  name : 2023,
+  moldel : "vitz",
+  colour :"blue",
 }
+console.log ("geting colour",object.colour)
 
-// Step 4: Create the end response
-const endResponse = `You asked: "${userInput}"\nI respond: ${response}`;
-
-// Step 5: Output the user's question and the response
-console.log(endResponse);
-
-let studnt = [
-  ['name1' , 34],
-  ['name2' , 45],
-]
+object.forsale = true
+console.log(object)
