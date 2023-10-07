@@ -161,12 +161,138 @@
 //   age : 23
 // }
 // console.log(object.age)
-let object = {
-  name : 2023,
-  moldel : "vitz",
-  colour :"blue",
-}
-console.log ("geting colour",object.colour)
+// let object = {
+//   name : 2023,
+//   moldel : "vitz",
+//   colour :"blue",
+// }
+// console.log ("geting colour",object.colour)
 
-object.forsale = true
-console.log(object)
+// object.forsale = true
+// console.log(object)
+
+// const people = {
+//   friend : []
+// }
+
+// let friend1 = {firstname:"faraz",lastname:"ahmed"}
+// people.friend.push(friend1)
+// people.friends = []
+// console.log(people)
+
+// let friend2 = {firstname:"waleed",lastname:"waleed"}
+// let friend3 = {firstname:"waleed",lastname:"waleed"}
+
+// let number = 0 ;
+// for (number; number < 100; number++){
+//   console.log('hello world ',number )
+// }
+
+
+
+
+// let araay = [87,23,88,98,55,44,99,77,92,95]
+
+// let number = 0 ;
+//  for (number ;number < 10; number++) {
+
+// console.log( araay)
+
+//  }
+
+
+
+
+
+
+// let mywork = [ ]
+// let number=0;
+// for ( number; number < 10; number++) {
+//   // console.log('lesson'+number)                   
+
+// let chapter = {name:'lesson'+number ,status:true}
+// console.log(chapter)
+// }
+     
+
+// let variable = 5
+
+// // Math.floor(math.random ()*5)
+// let waleed =Math.floor(Math.random ()*5)+1
+// console.log(waleed)
+// if ()
+ 
+// let max = 5;
+// let correct = true ;
+// while (corret) {
+//   let number = Math.floor(math.random()*max) + 1;
+//   console.log(
+    
+//   )
+
+// }
+
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let name of names){
+//  console.log(name);
+// }
+
+// let names = []
+
+// for(let i = 0; i < 10 ; i++){
+//   names.push(i)
+// }
+// console.log(names)
+
+// for(let i = 0; i < names.length ; i++){
+//   console.log(names[i])
+// }
+
+// for(let name of names){
+//   console.log(name)
+// }
+
+// let car = {
+//   model: "Golf",
+//   make: "Volkswagen",
+//   year: 1999,
+//   color: "black",
+//  };
+//  for (let prop in car){
+//   console.log(car[prop]);
+//  }
+ 
+
+// let brands = {
+//   gulahmed:"ideas",
+//   bonanaza:"satrangi",
+//   alkaram:"khadi",
+// }
+// for (let quality in brands){
+//   console.log(brands[quality]);
+// }
+// let brands = ["gulahmed","bonanza", "alkaram"]
+
+// const factorial = (num,sumf) => {
+//     if( num > 0){
+//         sumf = sumf * (num)
+//         factorial(--num,sumf)
+//     }else{
+//         console.log(sumf)
+//     }
+// }
+// factorial(5,1)
+
+
+// let sentence = "thIs will be capiTalized for each word"
+
+// sentence.split(" ")
+let waleeed = "I love JavaScript"
+waleeed  = waleeed.toLowerCase();
+console.log(waleeed)
+
+let array = ["a","e","i","o","u"]
+for (let i =0; i<array.length; i++){
+waleed = waleed.replacA11(array [i],i);
+}
+console.log(waleeed);
