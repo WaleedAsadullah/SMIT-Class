@@ -287,12 +287,31 @@
 // let sentence = "thIs will be capiTalized for each word"
 
 // sentence.split(" ")
-let waleeed = "I love JavaScript"
-waleeed  = waleeed.toLowerCase();
-console.log(waleeed)
+// let waleeed = "I love JavaScript"
+// waleeed  = waleeed.toLowerCase();
+// console.log(waleeed)
 
-let array = ["a","e","i","o","u"]
-for (let i =0; i<array.length; i++){
-waleed = waleed.replacA11(array [i],i);
-}
-console.log(waleeed);
+// let array = ["a","e","i","o","u"]
+// for (let i =0; i<array.length; i++){
+// waleed = waleed.replacA11(array [i],i);
+// }
+// console.log(waleeed);
+
+// let names = ['Waleed','Ammar','Shoaib','Taha','Waleed']
+
+// let filterNames = names.filter((element,index,names) => {
+//     if(names.indexOf(element) == index){
+//         return true
+//     }
+// })
+// console.log(filterNames)
+
+
+// let numbers = [1,2,3,4,5,6,7,8,9]
+// const multipleTwo = (element,index,array) => element*2 
+// let mapNumbers = numbers.map(multipleTwo)
+// console.log(mapNumbers)
+
+const arr = ["Hi","world","hello","Hii","hi","hi World","Hi"]
+arr.copyWithin(0, 3, 5);
+console.log(arr);
